@@ -1,0 +1,14 @@
+[target.x86_64-pc-windows-gnu]
+rustflags = [
+  "-C",
+  "link-arg=-Wl,--dynamicbase",
+  "-C",
+  "link-arg=-Wl,--disable-auto-image-base",
+]
+
+[profile.dev]
+incremental = true
+
+[profile.release]
+opt-level = "s"
+lto = true
