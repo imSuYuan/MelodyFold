@@ -36,7 +36,8 @@
 
 ## 截图
 
-![音折界面](screenshots/app.png)
+<img width="574" height="1144" alt="image" src="https://github.com/user-attachments/assets/ac6d56ce-bee2-4396-bf87-fafc76ee916f" />
+<img width="1594" height="1144" alt="image" src="https://github.com/user-attachments/assets/5fc5450f-5507-4f9a-825e-f81b8d02a2ed" />
 
 ## 下载安装
 
@@ -57,7 +58,7 @@
 ```bash
 # 克隆仓库
 git clone https://github.com/yourusername/yinzhe.git
-cd yinzhe
+cd MelodyFold
 
 # 安装依赖
 bun install
